@@ -1,0 +1,82 @@
+html, body {
+	height: 100%;
+}
+.descr {
+	font-family: 'Raleway', sans-serif;
+	color: #898f8f;
+	font-weight: 500;
+	line-height: 24px; 
+	text-align: center;
+	font-size: 18px;
+	padding-top: 7%;
+}
+.title {
+	font-family: Roboto;
+	color: #ffcc00;
+	font-size: 60px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	line-height: 66px; /* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.container {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.container__imgbox {
+	margin-right: 100px;
+	border-right: 1px solid #ffcc00;
+	padding-right: 50px;
+}
+.border {
+	border: 1px solid #ffcc00;
+}
+.container__descr {
+	height: 400px;
+	text-align: center;
+}
+.container__descr-title {
+	font-size: 54px;
+	font-family: Roboto;
+	color: #666666;
+	font-weight: 900;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ffcc00;
+}
+.container__descr-job {
+	font-family: Raleway;
+	color: #666666;
+	font-size: 24px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 36px; /* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-top: 30px;
+}
+.container__descr-list {
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container__descr-list li {
+	display: inline;
+	margin-left: 7px;
+}
+.container__descr-list li a {
+	text-decoration: none;
+}
+.container__descr-info {
+	line-height: 1.4;
+	font-size: 16px;
+}
+.container__descr-btn {
+	font-family: OpenSans;
+	color: #666666;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	background-color: #fff;
+	border: 2px solid #ffcc00;
+	margin-top: 15px;
+	padding: 5px 10px;
+}
